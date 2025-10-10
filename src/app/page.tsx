@@ -131,7 +131,7 @@ export default function Portfolio() {
 
         <div className="relative z-10 max-w-5xl mx-auto px-4 sm:px-6 text-center">
           <div className="text-[10px] sm:text-xs text-gray-400 mb-4 sm:mb-6 tracking-[0.2em] uppercase font-light">
-            /// Full-Stack Developer & Mobile Engineer
+          {'/// Full-Stack Developer & Mobile Engineer'}
           </div>
 
           <h1 className="text-4xl sm:text-5xl md:text-7xl lg:text-8xl font-bold mb-6 sm:mb-8 leading-[1.1]">
@@ -181,7 +181,7 @@ export default function Portfolio() {
       >
         <div className="max-w-6xl mx-auto">
           <div className="text-[10px] sm:text-xs text-gray-400 mb-3 sm:mb-4 tracking-[0.2em] uppercase font-light">
-            /// About
+            {"/// About"}
           </div>
           <h2 className="text-3xl sm:text-4xl md:text-6xl font-bold mb-8 sm:mb-12 leading-tight">
             Crafting Digital
@@ -192,7 +192,7 @@ export default function Portfolio() {
           <div className="grid md:grid-cols-2 gap-8 sm:gap-12">
             <div>
               <p className="text-gray-400 text-base sm:text-lg leading-relaxed mb-4 sm:mb-6">
-                I'm a passionate full-stack developer with expertise in building
+                I&apos;m a passionate full-stack developer with expertise in building
                 scalable, performant web and mobile applications. With a strong
                 foundation in modern JavaScript frameworks and cross-platform
                 development, I transform complex requirements into elegant,
@@ -238,7 +238,7 @@ export default function Portfolio() {
       <section id="skills" className="py-16 sm:py-24 px-4 sm:px-6 bg-black border-t border-white/5">
         <div className="max-w-6xl mx-auto">
           <div className="text-[10px] sm:text-xs text-gray-600 mb-3 sm:mb-4 tracking-[0.3em] uppercase font-light">
-            /// Tech Stack
+            {"/// Tech Stack"}
           </div>
           <h2 className="text-3xl sm:text-4xl md:text-6xl font-bold mb-10 sm:mb-16 leading-tight">
             Technical Expertise
@@ -327,7 +327,7 @@ export default function Portfolio() {
       >
         <div className="max-w-6xl mx-auto">
           <div className="text-[10px] sm:text-xs text-gray-400 mb-3 sm:mb-4 tracking-[0.2em] uppercase font-light">
-            /// Portfolio
+            {"/// Portfolio"}
           </div>
           <h2 className="text-3xl sm:text-4xl md:text-6xl font-bold mb-3 sm:mb-4 leading-tight">
             Selected Work
@@ -580,7 +580,7 @@ export default function Portfolio() {
       <section id="contact" className="py-16 sm:py-24 px-4 sm:px-6 bg-black">
         <div className="max-w-4xl mx-auto text-center">
           <div className="text-[10px] sm:text-xs text-gray-400 mb-3 sm:mb-4 tracking-[0.2em] uppercase font-light">
-            /// Let's Connect
+            {"/// Let's Connect"}
           </div>
           <h2 className="text-3xl sm:text-4xl md:text-6xl font-bold mb-6 sm:mb-8 leading-tight">
             Ready to Build
@@ -588,7 +588,7 @@ export default function Portfolio() {
             Something Great?
           </h2>
           <p className="text-gray-400 text-sm sm:text-base md:text-lg mb-8 sm:mb-12 max-w-2xl mx-auto px-4">
-            I'm always interested in hearing about new projects and
+            I&apos;m always interested in hearing about new projects and
             opportunities. Whether you have a question or just want to say hi,
             feel free to reach out.
           </p>
