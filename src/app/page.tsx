@@ -82,7 +82,7 @@ export default function Portfolio() {
                 href="#"
                 className="text-lg lg:text-xl font-bold tracking-tight hover:text-gray-300 transition-colors"
               >
-                Haris Afzal
+                Dev Dream
               </a>
             </div>
 
@@ -131,7 +131,7 @@ export default function Portfolio() {
 
         <div className="relative z-10 max-w-5xl mx-auto px-4 sm:px-6 text-center">
           <div className="text-[10px] sm:text-xs text-gray-400 mb-4 sm:mb-6 tracking-[0.2em] uppercase font-light">
-          {'/// Full-Stack Developer & Mobile Engineer'}
+          {'/// Full Stack Developer'}
           </div>
 
           <h1 className="text-4xl sm:text-5xl md:text-7xl lg:text-8xl font-bold mb-6 sm:mb-8 leading-[1.1]">
@@ -144,9 +144,10 @@ export default function Portfolio() {
           </h1>
 
           <p className="text-gray-400 text-base sm:text-lg md:text-xl max-w-2xl mx-auto mb-8 sm:mb-12 leading-relaxed px-4">
-            Full-stack developer specializing in Next.js, React, TypeScript, and
-            React Native. Building scalable web and mobile solutions with modern
-            technologies.
+            Senior Full-Stack Developer with 8+ years of experience delivering
+            scalable web and mobile applications. Specialized in React, Node.js,
+            and cloud-based systems, supporting 10k+ users and high-volume,
+            event-driven platforms.
           </p>
 
           <div className="flex gap-3 sm:gap-4 justify-center flex-wrap px-4">
@@ -157,7 +158,7 @@ export default function Portfolio() {
               View Projects
             </a>
             <a
-              href="https://github.com/Harisafzal03"
+              href="https://github.com/guruminion777-gif"
               target="_blank"
               rel="noopener noreferrer"
               className="border border-gray-600 px-6 sm:px-8 py-2.5 sm:py-3 text-xs sm:text-sm hover:border-white transition-all duration-200 font-medium"
@@ -192,39 +193,38 @@ export default function Portfolio() {
           <div className="grid md:grid-cols-2 gap-8 sm:gap-12">
             <div>
               <p className="text-gray-400 text-base sm:text-lg leading-relaxed mb-4 sm:mb-6">
-                I&apos;m a passionate full-stack developer with expertise in building
-                scalable, performant web and mobile applications. With a strong
-                foundation in modern JavaScript frameworks and cross-platform
-                development, I transform complex requirements into elegant,
-                user-centric solutions.
+                Senior Full-Stack Developer with 8+ years of experience delivering
+                scalable web and mobile applications. Specialized in React, Node.js,
+                and cloud-based systems, supporting 10k+ users and high-volume,
+                event-driven platforms.
               </p>
               <p className="text-gray-400 text-base sm:text-lg leading-relaxed">
-                My approach combines clean code architecture, responsive design
-                principles, and cutting-edge technologies to deliver products
-                that not only meet but exceed expectations.
+                I combine system design, performance optimization, and Agile practices
+                with clean code and RBAC-secure APIs to deliver products that scale
+                and exceed expectations.
               </p>
             </div>
 
             <div className="space-y-6 sm:space-y-8">
               <div>
                 <h3 className="text-xl sm:text-2xl font-bold mb-3 sm:mb-4">
-                  Experience
+                  Focus
                 </h3>
                 <div className="space-y-3 sm:space-y-4">
                   <div className="border-l-2 border-gray-700 pl-3 sm:pl-4 py-1">
                     <div className="text-xs sm:text-sm text-gray-400">
-                      Full-Stack Development
+                      Stack
                     </div>
                     <div className="text-sm sm:text-base text-white">
-                      Web & Mobile Applications
+                      React, Next.js, Node.js, NestJS, TypeScript
                     </div>
                   </div>
                   <div className="border-l-2 border-gray-700 pl-3 sm:pl-4 py-1">
                     <div className="text-xs sm:text-sm text-gray-400">
-                      Technologies
+                      Scale & Delivery
                     </div>
                     <div className="text-sm sm:text-base text-white">
-                      Next.js, React, TypeScript, React Native
+                      10k+ users, event-driven systems, CI/CD, AWS, Vercel
                     </div>
                   </div>
                 </div>
@@ -244,7 +244,7 @@ export default function Portfolio() {
             Technical Expertise
           </h2>
           
-          <div className="grid sm:grid-cols-2 md:grid-cols-3 gap-4 sm:gap-6">
+          <div className="grid sm:grid-cols-2 lg:grid-cols-3 gap-4 sm:gap-6">
             {/* Frontend */}
             <div className="border border-white/10 p-6 sm:p-8 hover:border-white/30 hover:bg-white/5 transition-all duration-300 group">
               <div className="flex items-center gap-3 mb-4 sm:mb-6">
@@ -256,7 +256,7 @@ export default function Portfolio() {
                 <h3 className="text-xl sm:text-2xl font-bold">Frontend</h3>
               </div>
               <ul className="space-y-3 sm:space-y-4">
-                {['Next.js', 'React.js', 'TypeScript', 'Vue.js', 'Astro.js'].map((tech) => (
+                {['JavaScript (ES6+)', 'TypeScript', 'React', 'Next.js', 'Vue', 'HTML5', 'CSS3', 'React Native'].map((tech) => (
                   <li key={tech} className="flex items-center gap-3 text-sm sm:text-base group/item hover:translate-x-1 transition-transform">
                     <span className="w-1.5 h-1.5 bg-white rounded-full flex-shrink-0"></span>
                     <span className="text-gray-400 group-hover/item:text-white transition-colors">{tech}</span>
@@ -265,18 +265,18 @@ export default function Portfolio() {
               </ul>
             </div>
 
-            {/* Mobile */}
+            {/* Backend */}
             <div className="border border-white/10 p-6 sm:p-8 hover:border-white/30 hover:bg-white/5 transition-all duration-300 group">
               <div className="flex items-center gap-3 mb-4 sm:mb-6">
                 <div className="w-10 h-10 sm:w-12 sm:h-12 bg-white/5 border border-white/10 flex items-center justify-center group-hover:bg-white/10 group-hover:border-white/20 transition-all">
                   <svg className="w-5 h-5 sm:w-6 sm:h-6 text-white" fill="currentColor" viewBox="0 0 24 24">
-                    <path d="M17 19H7V5h10v14zm-1-12H8v10h8V7z"/>
+                    <path d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm-1 17.93c-3.95-.49-7-3.85-7-7.93 0-.62.08-1.21.21-1.79L9 15v1c0 1.1.9 2 2 2v1.93zm6.9-2.54c-.26-.81-1-1.39-1.9-1.39h-1v-3c0-.55-.45-1-1-1H8v-2h2c.55 0 1-.45 1-1V7h2c1.1 0 2-.9 2-2v-.41c2.93 1.19 5 4.06 5 7.41 0 2.08-.8 3.97-2.1 5.39z"/>
                   </svg>
                 </div>
-                <h3 className="text-xl sm:text-2xl font-bold">Mobile</h3>
+                <h3 className="text-xl sm:text-2xl font-bold">Backend</h3>
               </div>
               <ul className="space-y-3 sm:space-y-4">
-                {['React Native', 'Cross-Platform', 'iOS & Android'].map((tech) => (
+                {['Node.js', 'NestJS', 'Django', 'PHP', 'Laravel', 'Express', 'REST APIs', 'RBAC'].map((tech) => (
                   <li key={tech} className="flex items-center gap-3 text-sm sm:text-base group/item hover:translate-x-1 transition-transform">
                     <span className="w-1.5 h-1.5 bg-white rounded-full flex-shrink-0"></span>
                     <span className="text-gray-400 group-hover/item:text-white transition-colors">{tech}</span>
@@ -285,36 +285,64 @@ export default function Portfolio() {
               </ul>
             </div>
 
-            {/* Tools & More */}
-            <div className="border border-white/10 p-6 sm:p-8 hover:border-white/30 hover:bg-white/5 transition-all duration-300 group sm:col-span-2 md:col-span-1">
+            {/* Databases */}
+            <div className="border border-white/10 p-6 sm:p-8 hover:border-white/30 hover:bg-white/5 transition-all duration-300 group">
+              <div className="flex items-center gap-3 mb-4 sm:mb-6">
+                <div className="w-10 h-10 sm:w-12 sm:h-12 bg-white/5 border border-white/10 flex items-center justify-center group-hover:bg-white/10 group-hover:border-white/20 transition-all">
+                  <svg className="w-5 h-5 sm:w-6 sm:h-6 text-white" fill="currentColor" viewBox="0 0 24 24">
+                    <path d="M4 6h16v2H4V6zm0 5h16v2H4v-2zm0 5h16v2H4v-2z"/>
+                  </svg>
+                </div>
+                <h3 className="text-xl sm:text-2xl font-bold">Databases</h3>
+              </div>
+              <ul className="space-y-3 sm:space-y-4">
+                {['PostgreSQL', 'MySQL', 'MariaDB', 'Redis', 'Relational DB Design'].map((tech) => (
+                  <li key={tech} className="flex items-center gap-3 text-sm sm:text-base group/item hover:translate-x-1 transition-transform">
+                    <span className="w-1.5 h-1.5 bg-white rounded-full flex-shrink-0"></span>
+                    <span className="text-gray-400 group-hover/item:text-white transition-colors">{tech}</span>
+                  </li>
+                ))}
+              </ul>
+            </div>
+
+            {/* Cloud & DevOps */}
+            <div className="border border-white/10 p-6 sm:p-8 hover:border-white/30 hover:bg-white/5 transition-all duration-300 group">
+              <div className="flex items-center gap-3 mb-4 sm:mb-6">
+                <div className="w-10 h-10 sm:w-12 sm:h-12 bg-white/5 border border-white/10 flex items-center justify-center group-hover:bg-white/10 group-hover:border-white/20 transition-all">
+                  <svg className="w-5 h-5 sm:w-6 sm:h-6 text-white" fill="currentColor" viewBox="0 0 24 24">
+                    <path d="M19.35 10.04C18.67 6.59 15.64 4 12 4 9.11 4 6.6 5.64 5.35 8.04 2.34 8.36 0 10.91 0 14c0 3.31 2.69 6 6 6h13c2.76 0 5-2.24 5-5 0-2.64-2.05-4.78-4.65-4.96z"/>
+                  </svg>
+                </div>
+                <h3 className="text-xl sm:text-2xl font-bold">Cloud & DevOps</h3>
+              </div>
+              <ul className="space-y-3 sm:space-y-4">
+                {['AWS', 'Docker', 'CI/CD', 'GitHub Actions', 'Vercel', 'Linux'].map((tech) => (
+                  <li key={tech} className="flex items-center gap-3 text-sm sm:text-base group/item hover:translate-x-1 transition-transform">
+                    <span className="w-1.5 h-1.5 bg-white rounded-full flex-shrink-0"></span>
+                    <span className="text-gray-400 group-hover/item:text-white transition-colors">{tech}</span>
+                  </li>
+                ))}
+              </ul>
+            </div>
+
+            {/* Other */}
+            <div className="border border-white/10 p-6 sm:p-8 hover:border-white/30 hover:bg-white/5 transition-all duration-300 group sm:col-span-2 lg:col-span-1">
               <div className="flex items-center gap-3 mb-4 sm:mb-6">
                 <div className="w-10 h-10 sm:w-12 sm:h-12 bg-white/5 border border-white/10 flex items-center justify-center group-hover:bg-white/10 group-hover:border-white/20 transition-all">
                   <svg className="w-5 h-5 sm:w-6 sm:h-6 text-white" fill="currentColor" viewBox="0 0 24 24">
                     <path d="M22.7 19l-9.1-9.1c.9-2.3.4-5-1.5-6.9-2-2-5-2.4-7.4-1.3L9 6 6 9 1.6 4.7C.4 7.1.9 10.1 2.9 12.1c1.9 1.9 4.6 2.4 6.9 1.5l9.1 9.1c.4.4 1 .4 1.4 0l2.3-2.3c.5-.4.5-1.1.1-1.4z"/>
                   </svg>
                 </div>
-                <h3 className="text-xl sm:text-2xl font-bold">Tools & More</h3>
+                <h3 className="text-xl sm:text-2xl font-bold">Other</h3>
               </div>
               <ul className="space-y-3 sm:space-y-4">
-                {['Git & GitHub', 'Responsive Design', 'API Integration', 'Performance Optimization'].map((tech) => (
+                {['System Design', 'Performance Optimization', 'Agile/Scrum', 'Code Reviews', 'Mentoring'].map((tech) => (
                   <li key={tech} className="flex items-center gap-3 text-sm sm:text-base group/item hover:translate-x-1 transition-transform">
                     <span className="w-1.5 h-1.5 bg-white rounded-full flex-shrink-0"></span>
                     <span className="text-gray-400 group-hover/item:text-white transition-colors">{tech}</span>
                   </li>
                 ))}
               </ul>
-            </div>
-          </div>
-
-          {/* Tech Stack Badges */}
-          <div className="mt-12 sm:mt-16 pt-8 sm:pt-12 border-t border-white/5">
-            <p className="text-xs sm:text-sm text-gray-600 mb-6 sm:mb-8 text-center tracking-wider">ALSO EXPERIENCED WITH</p>
-            <div className="flex flex-wrap justify-center items-center gap-3 sm:gap-4">
-              {['Tailwind CSS', 'Contentful', 'Framer Motion', 'Swiper.js', 'Web3', 'REST APIs', 'Cloudflare', 'Vercel'].map((tech) => (
-                <div key={tech} className="border border-white/10 px-4 py-2 text-xs sm:text-sm text-gray-400 hover:text-white hover:border-white/30 transition-all duration-300">
-                  {tech}
-                </div>
-              ))}
             </div>
           </div>
         </div>
@@ -593,15 +621,15 @@ export default function Portfolio() {
             feel free to reach out.
           </p>
 
-          <div className="flex gap-3 sm:gap-6 justify-center flex-wrap mb-8 sm:mb-12 px-4">
+          <div className="flex gap-3 sm:gap-6 justify-center flex-wrap mb-6 px-4">
             <a
-              href="mailto:harisafzal503@gmail.com"
+              href="mailto:guru.minion777@gmail.com"
               className="bg-white text-black px-6 sm:px-8 py-3 sm:py-4 text-xs sm:text-sm font-medium hover:bg-gray-200 transition-all duration-200"
             >
               Get In Touch
             </a>
             <a
-              href="https://github.com/Harisafzal03"
+              href="https://github.com/guruminion777-gif"
               target="_blank"
               rel="noopener noreferrer"
               className="border border-gray-600 px-6 sm:px-8 py-3 sm:py-4 text-xs sm:text-sm hover:border-white transition-all duration-200"
@@ -611,21 +639,19 @@ export default function Portfolio() {
           </div>
 
           <div className="flex gap-4 sm:gap-8 justify-center text-xs sm:text-sm text-gray-400 flex-wrap">
-            <a
-              href="https://github.com/Harisafzal03"
-              target="_blank"
-              rel="noopener noreferrer"
-              className="hover:text-white transition-colors"
-            >
-              GitHub
+            <a href="tel:+12105985086" className="hover:text-white transition-colors">
+              (210) 598-5086
+            </a>
+            <a href="mailto:guru.minion777@gmail.com" className="hover:text-white transition-colors">
+              guru.minion777@gmail.com
             </a>
             <a
-              href="https://www.linkedin.com/in/muhammad-haris-afzal-08854a252/"
+              href="https://github.com/guruminion777-gif"
               target="_blank"
               rel="noopener noreferrer"
               className="hover:text-white transition-colors"
             >
-              LinkedIn
+              github.com/guruminion777-gif
             </a>
           </div>
         </div>
@@ -636,7 +662,7 @@ export default function Portfolio() {
         <div className="max-w-6xl mx-auto">
           <div className="flex flex-col sm:flex-row justify-between items-center gap-4 text-xs sm:text-sm text-gray-500">
             <div className="order-2 sm:order-1">
-              © 2025 Haris Afzal. All rights reserved.
+              © 2025 Dev Dream. All rights reserved.
             </div>
           </div>
         </div>

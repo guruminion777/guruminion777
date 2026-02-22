@@ -5,9 +5,9 @@ import './globals.css';
 const inter = Inter({ subsets: ['latin'] });
 
 export const metadata: Metadata = {
-  title: 'Haris Afzal - Full-Stack Developer & Mobile Engineer',
-  description: 'Full-stack developer specializing in Next.js, React, TypeScript, and React Native. Building scalable web and mobile solutions.',
-  keywords: 'Full-Stack Developer, React Developer, Next.js, TypeScript, React Native, Mobile Development',
+  title: 'Dev Dream - Full Stack Developer',
+  description: 'Senior Full-Stack Developer with 8+ years of experience. React, Node.js, cloud-based systems. Supporting 10k+ users and event-driven platforms.',
+  keywords: 'Full Stack Developer, React, Node.js, TypeScript, Next.js, NestJS, AWS, PostgreSQL, DevOps',
 };
 
 export default function RootLayout({
