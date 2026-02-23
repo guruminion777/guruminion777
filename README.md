@@ -1,5 +1,4 @@
 ## 🛠️ My Skills
-
 <div style="display: flex; flex-wrap: wrap; gap: 10px; justify-content: center;">
   <img src="https://go-skill-icons.vercel.app/api/icons?i=html" alt="HTML" width="50">
   <img src="https://go-skill-icons.vercel.app/api/icons?i=css" alt="CSS" width="50">
@@ -74,7 +73,9 @@ JavaScript          211 hrs 25 mins  🟩🟩🟩🟩🟨⬜⬜⬜⬜⬜⬜⬜�
 JSON                328 hrs 9 mins   🟩🟩🟩🟩🟩🟩🟨⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜   25.48 %
 ```
 <img alt="" src="./profile-3d-contrib/themed_line_light.svg">
-
+<hr/>
+<img src="https://github.com/guruminion777/guruminion777/blob/main/ai.png" />
+<hr/>
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/guruminion777/guruminion777/output/github-contribution-grid-snake-dark.svg" />
   <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/guruminion777/guruminion777/output/github-contribution-grid-snake.svg" />
